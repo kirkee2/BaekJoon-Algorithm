@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-
 public class Algo1005 {
 
 	public static void main(String[] args) {
