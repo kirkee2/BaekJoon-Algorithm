@@ -1,13 +1,11 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-//import java.util.Stack;
 
 
 public class Algo1005 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		//Stack<Integer> stack = new Stack<Integer>();
 		
 		int total = sc.nextInt();
 		
@@ -45,8 +43,6 @@ public class Algo1005 {
 			aim[i] = sc.nextInt();	
 		}
 		
-		//stack.push(1);
-		
 		for(int i = 0 ; i<total ; i++){
 			for(int j = 0 ; j< buildingCount[i] ; j++){
 				answer[i][j] = -1;
@@ -80,15 +76,6 @@ public class Algo1005 {
 		}
 	
 		
-		/*
-		for(int i = 0 ; i<total ; i++){
-			for(int j = 0 ; j< buildingCount[i] ; j++){
-				System.out.print(answer[i][j] + " ");
-			}
-			System.out.println("asdsadasdasdsadasdsd");
-		}
-		*/
-		
 		for(int i = 0 ; i<total ; i++){
 			while (update){
 				update =false;
@@ -116,34 +103,7 @@ public class Algo1005 {
 			System.out.println(answer[i][aim[i]-1] + buildingDelay[i][aim[i]-1]);
 		}
 		
-		
-		
-		/*
-		for(int i = 0 ; i<total ; i++){
-			while(stack.isEmpty()){
-				int tmp = stack.pop();
-				currentCount--;
-				
-				if(tmp != aim[i]){
-					for(int j = 0 ; j< buildingRuleCount[i] ; j++){
-						if(arr[i][tmp][j] != 0){
-							stack.push(j);
-							nextCount++;
-						}
-					}
-				}else{
-					
-				}
-				
-				if(currentCount == 0){
-					//answer[i] += buildingDelay[i][tmp-1];
-					currentCount = nextCount;
-					nextCount = 0;
-				}
-			}
-		}
-		*/
-		
+
 		sc.close();
 	}
 
