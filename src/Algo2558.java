@@ -9,6 +9,8 @@ public class Algo2558 {
 		int b = sc.nextInt();
 		
 		System.out.println(a+b);
+		
+		sc.close();
 	}
 
 }

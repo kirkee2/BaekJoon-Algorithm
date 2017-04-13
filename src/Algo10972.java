@@ -102,5 +102,6 @@ public class Algo10972 {
 		}
 		
 		System.out.println();
+		sc.close();
 	}
 }

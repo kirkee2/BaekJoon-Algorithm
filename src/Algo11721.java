@@ -7,7 +7,6 @@ public class Algo11721 {
 		
 		String tmp = sc.nextLine();
 		
-		int rest = tmp.length()%10;
 		int sum = 0;
 		
 		for(int i = 0 ; i<tmp.length()/10 ; i++){
@@ -16,6 +15,8 @@ public class Algo11721 {
 		}
 		
 		System.out.println(tmp.substring(sum, tmp.length()));
+		
+		sc.close();
 	}
 
 }

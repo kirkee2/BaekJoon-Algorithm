@@ -59,5 +59,15 @@ public class Algo9095 {
             }
             System.out.println(ans);
         }
+        
+        sc.close();
     }
+	
+	static int re(int n){
+		for(int i = 1 ; i <=3 ; i++){
+			
+		}
+		
+		return 1;
+	}
 }

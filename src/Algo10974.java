@@ -56,7 +56,7 @@ public class Algo10974 {
 			
 			System.out.println();
 		}while(next_permutation(arr));
-		
+		sc.close();
 	}
 
 }

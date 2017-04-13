@@ -20,6 +20,7 @@ public class Algo10953Tokenizer {
 			
 			System.out.println(a+b);
 		}
+		sc.close();
 	}
 
 }

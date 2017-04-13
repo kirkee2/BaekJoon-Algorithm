@@ -11,7 +11,7 @@ public class Algo10951 {
 			
 			System.out.println(a+b);
 		}
-
+		sc.close();
 	}
 
 }

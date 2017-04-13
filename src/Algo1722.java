@@ -59,5 +59,7 @@ public class Algo1722 {
 			
 			System.out.println(sum+1);
 		}
+		
+		sc.close();
 	}
 }

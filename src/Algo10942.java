@@ -31,6 +31,7 @@ public class Algo10942 {
 			System.out.println(answer[i]);
 		}
 		
+		sc.close();
 	}
 	
 	public static String reverseString(String s) {

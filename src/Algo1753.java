@@ -59,6 +59,8 @@ public class Algo1753 { //벨만포드로 하면 시간초과뜸
 				System.out.println((int)answer[i]);
 			}
 		}
+		
+		sc.close();
 	}
 
 }

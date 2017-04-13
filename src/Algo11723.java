@@ -78,6 +78,8 @@ public class Algo11723 {
 				empty();
 			}
 		}
+		
+		sc.close();
 	}
 	
 	static void add(int index){

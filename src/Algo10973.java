@@ -47,6 +47,7 @@ public class Algo10973 {
 	        } else {
 	            System.out.println("-1");
 	        }
+	        sc.close();
 	    }
 
 }

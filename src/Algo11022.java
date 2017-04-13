@@ -13,6 +13,7 @@ public class Algo11022 {
 			
 			System.out.println("Case #" + (int)(i+1) + ": " + a +" + "+ b + " = " +(int)(a+b));
 		}
+		sc.close();
 	}
 
 }

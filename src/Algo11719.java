@@ -9,6 +9,8 @@ public class Algo11719 {
 			String tmp = sc.nextLine();
 			System.out.println(tmp);
 		}
+		
+		sc.close();
 	}
 
 }

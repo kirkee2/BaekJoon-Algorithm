@@ -34,6 +34,8 @@ public class Algo1476 {
 			mTmp++;
 			year++;
 		}
+		
+		sc.close();
 	}
 
 }

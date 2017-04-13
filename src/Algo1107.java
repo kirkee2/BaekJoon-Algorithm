@@ -1,6 +1,4 @@
-import java.util.ArrayList;
 import java.util.Scanner;
-import java.math.*;
 
 public class Algo1107 {
 
@@ -21,7 +19,6 @@ public class Algo1107 {
 			broken[sc.nextInt()] = true;
 		}
 		for(int i = 0 ; i<=1000000 ; i++){
-			int c = i;
 			if(possible(i) != 0){
 				if(min > possible(i) + Math.abs(i - target)){
 					min = possible(i) + Math.abs(i - target);

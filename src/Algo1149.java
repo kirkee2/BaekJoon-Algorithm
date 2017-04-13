@@ -38,6 +38,8 @@ public class Algo1149 {
 		
 		
 		System.out.println(min);
+		
+		sc.close();
 	}
 	
 	static int min(int a,int b){
