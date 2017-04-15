@@ -66,13 +66,14 @@ public class Algo10971 {
 			
 			if(w[search[t-1]][search[0]] == 0){
 				check = true;
+			}else{
+				sum += w[search[t-1]][search[0]];
 			}
 			
 			if(check){
 				sum =0;
 				check = false;
 			}else{
-				sum += w[search[t-1]][search[0]];
 				if(answer>sum){
 					answer = sum;
 				}
