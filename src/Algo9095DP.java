@@ -25,9 +25,9 @@ public class Algo9095DP {
 			     for(int j = 4 ; j <= tmp ; j++){
 			    	 dp[j] = dp[j-1] + dp[j-2] + dp[j-3];
 			     }
+			     
+			     System.out.println(dp[tmp]);
 		     }
-	    	 
-	    	 System.out.println(dp[tmp]);
 	     }       
 	     sc.close();
 	}
